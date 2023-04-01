@@ -1,0 +1,80 @@
+body{
+    background-color:rgb(249, 242, 242);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img {
+    width: 300px;
+    margin: auto;
+}
+
+.img1{
+    width: 200px;
+    margin: auto;
+}
+
+.img2{
+    width: 150px;
+    margin: auto; 
+    border-radius: 40%;
+}
+
+.img3{
+    width: 100px;
+    margin: auto;
+   
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+} 
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+}
+
+.lista1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2.5;
+ }
+
+ .lista2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2.5;
+ }
+
+h1{
+    font-size: 55px;
+    
+}
+
+h2{
+    background-color: rgb(161, 161, 196);
+   color: rgb(76, 78, 67);   
+}
+ 
+ .moreMe{
+    display:flex;
+    justify-content: center;
+ }
+ 
+
+ .parrafo{
+    display: flex;
+    justify-content: center;
+    margin: auto; 
+    word-spacing: 122px;
+ }
+
+ 
