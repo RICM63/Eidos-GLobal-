@@ -22,8 +22,20 @@ body{
 .img3{
     width: 100px;
     margin: auto;
-   
-
+}
+.img4{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: auto;
+    border-radius: 20%;
+}
+.img5{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: auto;
+    border-radius: 20%;
 }
 .contenedor{
     display: flex;
@@ -42,6 +54,10 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 40%;
+}
+contenedor5{
+     display: flex;
+    justify-content: center;
 }
 
 .lista1{
@@ -74,7 +90,7 @@ h2{
     display: flex;
     justify-content: center;
     margin: auto; 
-    word-spacing: 122px;
+    word-spacing: 350px;
  }
 
  
