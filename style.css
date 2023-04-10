@@ -1,17 +1,94 @@
+header{
+    display: flex;
+    height: 40px;
+    background-color:darkslategray;
+    padding: 10px;
+    justify-content: left;
+}
+.up{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    margin-right:  5%;
+    margin-left: 5%;
+}
+
+p{
+    text-align: justify;
+}   
+
+.s1{
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+    height: 100px;   
+}
+
+.dp{
+   background-color: darkslategray;
+   color: white;
+} 
+
+.lista1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2.5;
+    align-items: center;
+    display: flex; 
+    justify-content: center;  
+ }
+
+.lista1 li{
+   padding-right: 100px;  
+}
+
+.s2{
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+    height: 425px;  
+}
+.pabio{
+   margin-left: 50px;
+   margin-right: 50px;
+   marker-end: 25px
+   ;
+}
+
+
+ 
+    header h2{
+        font-size:  35px;
+        color: white;
+        justify-content: right;
+    }
+
+a{
+    text-decoration: none;
+}
+
 body{
     background-color:rgb(249, 242, 242);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
-.img {
-    width: 300px;
-    margin: auto;
+    .img {
+        width: 300px;
+        margin: auto;
+    }
+    .img0{
+        height: 60px;
+        margin-right: 10px;
 }
 
-.img1{
-    width: 200px;
-    margin: auto;
+h3{
+    color: black;
 }
+
+    .img1{
+        width: 200px;
+        margin: auto;
+    }
 
 .img2{
     width: 150px;
@@ -60,25 +137,12 @@ contenedor5{
     justify-content: center;
 }
 
-.lista1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 2.5;
- }
+
 
  .lista2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 2.5;
  }
-
-h1{
-    font-size: 55px;
-    
-}
-
-h2{
-    background-color: rgb(161, 161, 196);
-   color: rgb(76, 78, 67);   
-}
  
  .moreMe{
     display:flex;
