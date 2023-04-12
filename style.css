@@ -1,3 +1,9 @@
+body{
+    background-color:rgb(249, 242, 242);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
 header{
     display: flex;
     height: 40px;
@@ -8,11 +14,23 @@ header{
 .up{
     display: flex;
     align-items: center;
+    font-size:  30px;
+    color: white;
+    justify-content: right;
+}
+
+.img0{
+        height: 60px;
+        margin-right: 10px;
 }
 
 main{
     margin-right:  5%;
     margin-left: 5%;
+}
+
+a{
+    text-decoration: none;
 }
 
 p{
@@ -35,126 +53,175 @@ p{
     line-height: 2.5;
     align-items: center;
     display: flex; 
-    justify-content: center;  
+    justify-content: space-around;  
  }
 
-.lista1 li{
-   padding-right: 100px;  
-}
 
 .s2{
     background-color: rgb(202, 202, 202);
     width: 100%;
-    height: 425px;  
+    height: 420px;   
 }
 .pabio{
    margin-left: 50px;
    margin-right: 50px;
-   marker-end: 25px
-   ;
+   marker-end: 25px;
+
 }
 
-
- 
-    header h2{
-        font-size:  35px;
-        color: white;
-        justify-content: right;
+.imgbiografia{
+    display: flex;
+    height: 150px;
+    justify-content:space-around;
+    padding: 15px;
     }
 
-a{
-    text-decoration: none;
+    
+.s3{
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+    height: 200px;
+    
 }
 
-body{
-    background-color:rgb(249, 242, 242);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
+.des{
+    margin-left: 50px;
+    margin-right: 50px;
+    marker-end: 25px
+    ;
 }
 
-    .img {
-        width: 300px;
-        margin: auto;
-    }
-    .img0{
-        height: 60px;
-        margin-right: 10px;
+.s4{
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+    height: 100px;  
 }
 
-h3{
-    color: black;
+.lista2{
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2.5;
 }
 
-    .img1{
-        width: 200px;
-        margin: auto;
-    }
+.s5{
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+    height: 160px;
+}
 
-.img2{
+.contenedor2{
+    display: flex;
+    justify-content:space-around;
+} 
+
+.s6{
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+    height:220px;
+}
+.moreMe{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .img3{
+    width: 100px;
+    margin: auto;
+}
+
+ .s7{
+    background-color: rgb(202, 202, 202);
+    width: 100%;
+    height:520px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.s7uno {
+    display: flex;
+    justify-content: space-around;
+}
+.sidney{
+    display:flex;
+    justify-content: space-between;
+   
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0,0,0, .5);
+    margin:0;
+    
+}
+.sidney p{
+    margin-right: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.sidney img{
+    margin-left: 20px;
     width: 150px;
     margin: auto; 
     border-radius: 40%;
 }
 
-.img3{
-    width: 100px;
-    margin: auto;
+.play{
+    justify-content: center;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0,0,0, .5);
+    margin:0;
 }
-.img4{
-    display: flex;
-    justify-content: center;
-    width: 250px;
-    margin: auto;
-    border-radius: 20%;
+.play1 p{
+    margin-right: 10px;
+    margin-left: 40px;
+    font-size: 15px;
 }
-.img5{
-    display: flex;
-    justify-content: center;
-    width: 250px;
-    margin: auto;
-    border-radius: 20%;
-}
-.contenedor{
-    display: flex;
-    justify-content: center;
-}
-
-.contenedor2{
-    display: flex;
-    justify-content: center;
-} 
-.contenedor3{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    background-color: pink;
-    width: 200px;
-    height: 200px;
-    border-radius: 40%;
-}
-contenedor5{
-     display: flex;
-    justify-content: center;
-}
-
-
-
- .lista2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 2.5;
- }
- 
- .moreMe{
-    display:flex;
-    justify-content: center;
- }
- 
-
- .parrafo{
-    display: flex;
-    justify-content: center;
+.play img{
+    margin-left: 20px;
+    width: 190px;
     margin: auto; 
-    word-spacing: 350px;
- }
+    border-radius: 10%;
+    
+}
+
+.soccer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0,0,0, .5);
+    margin:0;
+}
+.soccer p{
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.soccer img{
+    margin-left: 20px;
+    width: 190px;
+    margin: auto; 
+    border-radius: 10%;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
 
  
